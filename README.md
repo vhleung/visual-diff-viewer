@@ -3,10 +3,17 @@
 Within the authoring interface of IBM WCM, there is no easy way for the content authors and approvers to quickly determine what has been changed between two versions of a content item. Rather, content authors and approvers have to go through each element in the content item and do a manual comparison between the current version and a previous version of the content item. This can be rather laborious and frustrating, especially when dealing with content items with a large number of elements.
 
 To address this issue, we have developed a “Visual Diff Viewer” that can be accessed from the standard IBM WCM Authoring Portlet. A new button labelled “Visual Diff” is accessible when the content item is opened up in Edit mode:
+
+  ![edit mode](images/editor_image_bf75f380-f551-4d3f-898a-79858992c125.png)
  
 When the content author clicks on the “Visual Diff” button, the Visual Diff Viewer opens up in a new window, and lists all previous versions of the selected content item:
+
+  ![versions](images/editor_image_87d34216-504c-4985-8d30-917c1cc9191d.png)
  
 Once the content author has selected a previous version from the list, the Visual Diff Viewer iterates through every single element in the content item, and displays all elements whose values differ between the current version and a previous version of the content item:
+
+  ![versions](images/editor_image_5d1065d2-9029-4f3c-8f40-ef4392f08982.png)
+
 
 ## Installation
 
