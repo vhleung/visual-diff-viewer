@@ -1,0 +1,62 @@
+body {
+  font: 75%/1.5 Arial,Helvetica,sans-serif;
+}
+
+h1 {
+  color: white;
+  padding: 15px 50px 15px 20px;
+  background-color: #3C3C3C;
+  background-image: -moz-linear-gradient(center top , #3C3C3C 0%, #252525 100%) repeat scroll 0% 0% #3C3C3C;
+}
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	//padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	//padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+.animate-show {
+  line-height: 20px;
+  opacity: 1;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+}
+
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+  line-height: 0;
+  opacity: 0;
+  padding: 0 10px;
+}
+
+ins, ins > * {
+	color: black;
+	background: #bbffbb !important;
+}
+
+del, del > * {
+	color: black;
+	background: #ffbbbb !important;
+}

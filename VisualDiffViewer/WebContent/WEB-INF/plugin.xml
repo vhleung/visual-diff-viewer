@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.ibm.demo.visualdiff.customplugins" name="Demo Extension Plugins" version="1.0.0" provider-name="IBM">        
+	<extension point="com.ibm.workplace.wcm.api.AuthoringAction" id="VisualDiffAuthoringAction">
+		<provider class="com.ibm.demo.VisualDiffAuthoringAction"/>
+	</extension>
+</plugin>
